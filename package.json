@@ -1,8 +1,9 @@
 {
   "name": "roomchatapp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
+    "roomchat": "nodemon ./bin/server",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -19,6 +20,8 @@
     "@angular/platform-browser": "~9.0.2",
     "@angular/platform-browser-dynamic": "~9.0.2",
     "@angular/router": "~9.0.2",
+    "cookie-parser": "^1.4.4",
+    "morgan": "^1.9.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
