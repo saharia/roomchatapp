@@ -1,5 +1,9 @@
 # Roomchatapp
 
+To start the socket server.
+
+Run `npm run roomchat`. It will automatically start the socket server using nodejs.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
 ## Development server
